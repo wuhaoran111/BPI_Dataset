@@ -1,0 +1,115 @@
+000_number,number
+001_rel_time,time
+002_lidar_is_valid,if lidar is valid
+003_lidar_frame,frame of lidar
+004_lidar_rel_time,time of lidar
+005_lidar_time_stamp,
+006_lidar_ped_x,longitudinal position of pedestrian 
+007_lidar_ped_y,lateral position of pedestrian
+008_lidar_curve_x1,road curb 1
+009_lidar_curve_y1,
+010_lidar_curve_x2,road curb 2
+011_lidar_curve_y2,
+012_lidar_pc_lat,pedestrian's lateral distance to road curb 1
+013_lidar_vc_lat,vehicle's lateral distance to road curb 1
+014_lidar_pv_lon,longitudinal distance between pedestrian and vehicle 
+015_can_is_valid,if can is valid
+016_can_frame,
+017_can_rel_time,
+018_can_time_stamp,
+019_can_VehicleSpeed,VehicleSpeed
+020_can_SteeringAngle,SteeringAngle
+021_can_SteeringVelocity,SteeringVelocity
+022_can_TargetSteeringAngle,
+023_can_TargetSteeringVelocity,
+024_can_TargetTorque,
+025_can_TargetBrakePressure,
+026_can_BrakePressure,BrakePressure
+027_can_SteeringTorqueVoltage,
+028_can_SteeringDAC_A,
+029_can_SteeringDAC_B,
+030_can_AcceleratorPedal,
+031_imu_is_valid,if imu is valid
+032_imu_frame,
+033_imu_rel_time,
+034_imu_time_stamp,
+035_imu_orientation.y,
+036_imu_orientation.z,
+037_imu_orientation.w,
+038_imu_orientation_covariance0,
+039_imu_orientation_covariance1,
+040_imu_orientation_covariance2,
+041_imu_orientation_covariance3,
+042_imu_orientation_covariance4,
+043_imu_orientation_covariance5,
+044_imu_orientation_covariance6,
+045_imu_orientation_covariance7,
+046_imu_orientation_covariance8,
+047_imu_angular_velocity.x,
+048_imu_angular_velocity.y,
+049_imu_angular_velocity.z,
+050_imu_angular_velocity_covariance0,
+051_imu_angular_velocity_covariance1,
+052_imu_angular_velocity_covariance2,
+053_imu_angular_velocity_covariance3,
+054_imu_angular_velocity_covariance4,
+055_imu_angular_velocity_covariance5,
+056_imu_angular_velocity_covariance6,
+057_imu_angular_velocity_covariance7,
+058_imu_angular_velocity_covariance8,
+059_imu_linear_acceleration.x,
+060_imu_linear_acceleration.y,
+061_imu_linear_acceleration.z,
+062_imu_linear_acceleration_covariance0,
+063_imu_linear_acceleration_covariance1,
+064_imu_linear_acceleration_covariance2,
+065_imu_linear_acceleration_covariance3,
+066_imu_linear_acceleration_covariance4,
+067_imu_linear_acceleration_covariance5,
+068_imu_linear_acceleration_covariance6,
+069_imu_linear_acceleration_covariance7,
+070_imu_linear_acceleration_covariance8,
+071_image_is_valid,if image captured is valid
+072_image_frame,
+073_image_rel_time,
+074_image_time_stamp,
+075_img_01-mouth_x,"18 key points for pedestrian, l means left, r means right"
+076_img_01-mouth_y,-1 means failure
+077_img_02-neck_x,
+078_img_02-neck_y,
+079_img_03-l_shoulder_x,
+080_img_03-l_shoulder_y,
+081_img_04-l_elbow_x,
+082_img_04-l_elbow_y,
+083_img_05-l_wrist_x,
+084_img_05-l_wrist_y,
+085_img_06-r_shoulder_x,
+086_img_06-r_shoulder_y,
+087_img_07-r_elbow_x,
+088_img_07-r_elbow_y,
+089_img_08-r_wrist_x,
+090_img_08-r_wrist_y,
+091_img_09-l_hip_x,
+092_img_09-l_hip_y,
+093_img_10-l_knee_x,
+094_img_10-l_knee_y,
+095_img_11-l_ankle_x,
+096_img_11-l_ankle_y,
+097_img_12-r_hip_x,
+098_img_12-r_hip_y,
+099_img_13-r_knee_x,
+100_img_13-r_knee_y,
+101_img_14-r_ankle_x,
+102_img_14-r_ankle_y,
+103_img_15-l_eye_x,
+104_img_15-l_eye_y,
+105_img_16-r_eye_x,
+106_img_16-r_eye_y,
+107_img_17-l_ear_x,
+108_img_17-l_ear_y,
+109_img_18-r_ear_x,
+110_img_18-r_ear_y,
+111_img_orientation,pedestrian orientation
+112_img_valid,if the postures is valid for behavior identification
+113_img_label,"ground truth of pedestrian behavior, zero means standing"
+,one means walking and two means running
